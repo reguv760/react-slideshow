@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 import "./App.scss";
 import Card from "./Card";
 import data from "./data/data";
@@ -32,16 +34,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <button
-          onClick={this.nextProperty}
-          disabled={property.index === data.properties.length - 1}
-        >
-          Next
-        </button>
-        <button onClick={this.prevProperty} disabled={property.index === 0}>
-          Prev
-        </button>
-
         <div className="page">
           <section>
             <img src={logo} className="App-logo" alt="logo" />
@@ -62,6 +54,27 @@ class App extends Component {
             </div>
           </div>
         </div>
+
+        <ButtonGroup className="buttonGroup">
+          <ul>
+            <li>
+              <Button
+                onClick={this.nextProperty}
+                disabled={property.index === data.properties.length - 1}
+              >
+                Next
+              </Button>
+            </li>
+            <li>
+              <Button
+                onClick={this.prevProperty}
+                disabled={property.index === 0}
+              >
+                Prev
+              </Button>
+            </li>
+          </ul>
+        </ButtonGroup>
       </div>
     );
   }
