@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Based on Youtube Tutorial from [ihatetomatoes](https://www.youtube.com/watch?v=3ax9TW2c2bY).
 
+Demo: [https://reguv760.github.io/react-slideshow](https://reguv760.github.io/react-slideshow)
+
 ### Features
 
 - Uses latest version of React (16.8.6)
