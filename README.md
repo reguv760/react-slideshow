@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Based on Youtube Tutorial from [ihatetomatoes](https://www.youtube.com/watch?v=3ax9TW2c2bY).
+
+### Features
+
+- Uses latest version of React (16.8.6)
+- Using CSS trasform + transition to animate scaling effect
+
 ## Available Scripts
 
 In the project directory, you can run:
