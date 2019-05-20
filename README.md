@@ -8,6 +8,7 @@ Demo: [https://reguv760.github.io/react-slideshow](https://reguv760.github.io/re
 
 - Uses latest version of React (16.8.6)
 - Using CSS trasform + transition to animate scaling effect
+- deploy by gh-pages
 
 ## Available Scripts
 
